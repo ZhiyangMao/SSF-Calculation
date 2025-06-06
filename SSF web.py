@@ -18,7 +18,12 @@ st.header("Introduction")
 st.write("Created by Zhiyang Mao, Stanford, 6/5/2025")
 st.write("Last edited: 6/5/2025")
 st.write("This website can calculate the spectral shape factor (SSF) using epsilon and Sa Ratio, according to FEMA P-695. User can create the plot based on the input parameters and download files from the analysis.")
-
+st.warning("""
+⚠️ This tool is for academic and research purposes only.
+Results are for reference only and should not be used for engineering design,
+commercial decisions, or risk analysis.
+The author assumes no responsibility for any consequences arising from its use.
+"""))
 # FLAG to make sure the input is correct
 FLAG_input=1
 FLAG_analysis=1
