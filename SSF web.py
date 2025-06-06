@@ -23,7 +23,7 @@ st.warning("""
 Results are for reference only and should not be used for engineering design,
 commercial decisions, or risk analysis.
 The author assumes no responsibility for any consequences arising from its use.
-"""))
+""")
 # FLAG to make sure the input is correct
 FLAG_input=1
 FLAG_analysis=1
