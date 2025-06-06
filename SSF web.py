@@ -15,7 +15,7 @@ if "analysis_done" not in st.session_state:
 st.title("SSF Adjustment of FEMA P-695")
 # text the introduction
 st.header("Introduction")
-st.write("Created by Zhiyang Mao, Stanford, 6/5/2025")
+st.write("Created by Zhiyang Mao and Christianos Burlotos, Stanford, 6/5/2025")
 st.write("Last edited: 6/5/2025")
 st.write("This website can calculate the spectral shape factor (SSF) using epsilon and Sa Ratio, according to FEMA P-695. User can create the plot based on the input parameters and download files from the analysis.")
 st.warning("""
